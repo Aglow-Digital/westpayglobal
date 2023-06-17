@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <script src="https://kit.fontawesome.com/4fa14c26b9.js" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+
+    <style>
+      
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700 !important;
+    color: #892032;
+  }
+  a {
+    color: #892032;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 500;
+  }
+  img {
+    width: 100%;
+  }
+  .bg-cover {
+    background-position: center !important;
+    background-size: cover !important;
+  }
+  /* NAVBAR STYLESHEET */
+  .top-nav {
+    background-color:#ff7800;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .top-nav p {
+    margin-bottom: 0;
+    display: inline-block;
+    margin-right: 16px;
+    color: #fff;
+  }
+  .top-nav i,
+  .top-nav span  {
+      vertical-align: middle;
+  }
+  .social-links a {
+    width: 34px;
+    height: 34px;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: inline-flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 100%;
+  }
+  .social-links a:hover {
+      background-color: #fff;
+      color: #ff4d25;
+  }
+  .navbar {
+      box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+  }
+  .navbar .navbar-nav .nav-link:hover,
+  .navbar .navbar-nav .nav-link.active  {
+        color: #ff7800;
+  }
+  /* BTN */
+  .btn {
+    padding: 9px 24px;
+  }
+  /* SLIDER STYLESHEET */
+  .slide1 {
+      background: linear-gradient(rgba(9, 32, 50, 0.3), rgba(9, 32, 50, 0.4)),url(../img/deliveryman_02.jpg);
+      /* background: linear-gradient(rgba(255, 165, 0, 0.3), rgba(255, 165, 0, 0.4)),url(./img/deliveryman_02.jpg); */
+  }
+  .slide2 {
+      background: linear-gradient(rgba(9, 32, 50, 0.3), rgba(9, 32, 50, 0.4)),url(../img/deliveryman_05.jpg);
+      /* background: linear-gradient(rgba(255, 165, 0, 0.3), rgba(255, 165, 0, 0.4)),url(./img/deliveryman_02.jpg); */
+  }
+
+  /* OWN CAROUSEL  */
+  .owl-prev,
+  .owl-next {
+      position: absolute;
+      top: 50%;
+      width: 60px !important;
+      height: 60px !important;
+      display: grid;
+      place-items: center;
+      background-color: rgba(255, 255, 255, 0.2) !important;
+      margin-top: -30px !important;
+      color: #fff !important;
+      font-weight: 700 !important;
+      font-size: 12 !important;
+      border-radius: 100px !important;
+  }
+  .owl-prev{
+    left: 0;
+  }
+  .owl-next {
+    right: 0;
+  }
+
+  .owl-next:hover,
+  .owl-next:hover {
+      background-color: #ff7800 !important;
+  }
+
+    </style>
+
+    
+
+    <title>West Pay Global | Appastore </title>
+
+    <style>
+           @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+        body {
+          font-family: 'Lato', sans-serif;
+        
+          color: #516171;
+        }
+  
+
+    </style>
+</head>
+<body  data-bs-spy="scroll" data-bs-target=".navbar">
+    <!-- Header Section Starte Here  -->
+    <nav class="top-nav" id="home">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-auto">
+                    <p>
+                        <!-- <i class='bx bx-envelope'></i> -->
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>stephethanchad@gmail.com</span>
+                    </p>
+                    <p>
+                        <!-- <i class='bx bxs-phone-call' ></i> -->
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+23407066649111</span>
+                    </p>
+                </div>
+                <div class="col-auto">
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-white navbar-light sticty-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="./img/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#product">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+            </ul>
+            <!-- <a href="#" class="btn btn-brand">Contact Us</a> -->
+          </div>
+        </div>
+    </nav>
+    <!-- Header Section Ends Here -->
+
+    <!-- Hero Section Starts Here  -->
+    <div class="slider-wrapper owl-carousel owl-theme" id="hero-slider">
+      <div class="slide1 min-vh-100 bg-cover d-flex align-items-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h1 class="text-upper display-3 my-3 text-white">Order anything with <br /> Appastore 01</h1>
+                <a href="#" class="btn btn-primary" style="background-color: #ff7800; color: #fff;">Order Now</a> 
+                <a href="#" class="btn btn-outline ms-md-3" style="color: #fff;">Order Now</a> 
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="slide2 min-vh-100 bg-cover d-flex align-items-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 text-center">
+                <h1 class="text-upper display-3 my-3 text-white">Order anything with <br /> Appastore 01</h1>
+                <a href="#" class="btn btn-primary" style="background-color: #ff7800; color: #fff;">Order Now</a> 
+                <a href="#" class="btn btn-outline ms-md-3" style="color: #fff;">Order Now</a> 
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <!-- Hero Section Ends Here -->
+
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./js/test.js"></script>
+</body>
+</html>
