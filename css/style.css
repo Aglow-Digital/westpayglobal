@@ -28,7 +28,12 @@ html {
   scroll-padding-top: 7rem;
 }
 body {
+<<<<<<< HEAD
   /* background: #eee; */
+=======
+    background: #eee;
+    line-height: 1.7rem; 
+>>>>>>> c68361ef56738c2feebb2270e32879913d08d28c
 }
 .btn {
   margin-top: 1rem;
@@ -362,7 +367,15 @@ header .login-form p a {
 }
 
 @media (max-width: 450px) {
+<<<<<<< HEAD
   html {
     font-size: 50%;
   }
 }
+=======
+    html{
+        font-size: 50%;
+    }
+}
+
+>>>>>>> c68361ef56738c2feebb2270e32879913d08d28c
