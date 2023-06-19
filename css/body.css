@@ -1,0 +1,625 @@
+.main__wrapper {
+  margin: 5rem 0;
+}
+
+.product-p {
+  font-size: 12px;
+  padding: 8px;
+  letter-spacing: 1px;
+}
+/* specialities-appa */
+.specialities-appa {
+  margin: 3rem 0;
+  margin-bottom: 6rem;
+}
+.specialities-appa,
+.advantages-appa {
+  text-align: center;
+}
+.specialities-appa div h2,
+.advantages-appa div h2,
+.join-appa h2 {
+  font-size: 32px;
+  padding-bottom: 5px;
+  /*  */
+}
+.specialities-appa div h2 {
+  position: relative;
+  display: inline-block;
+  background-color: rgba(
+    255,
+    123,
+    0,
+    0.877
+  ); /* Adjust the background color as needed */
+  -webkit-clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 80%,
+    0% 100%
+  ); /* Adjust the clip-path shape as needed */
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 80%,
+    0% 100%
+  ); /* Adjust the clip-path shape as needed */
+  color: #fff; /* Adjust the text color as needed */
+  padding: 10px 20px; /* Adjust the padding as needed */
+}
+
+.specialities-appa-sec {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px 30px;
+  margin: 3rem 0;
+}
+.specialities-appa-sec .specialities__02 {
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fffbf8;
+  padding: 3rem 2rem;
+  height: 325px;
+  width: 33.33%;
+}
+.spec {
+  padding-top: 5px;
+  /* width: 24rem; */
+  font-size: 13px;
+}
+
+.learn {
+  width: 140px;
+  height: 35px;
+  color: #ffff;
+  font-size: 15px;
+  background-color: #ef7822;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Added */
+}
+
+.learn:hover {
+  background-color: #d56114; /* Adjust the hover background color as needed */
+}
+/* Specialties ends */
+
+/* Advantage  */
+.advantages-appa {
+  background-color: #fffbf8;
+  padding: 6rem 2rem;
+}
+
+.advantages-appa div h2 {
+  position: relative;
+  display: inline-block;
+  background: #00000021;
+
+  box-shadow: -5px -5px 4px rgba(138, 71, 155, 0.363);
+  -webkit-clip-path: polygon(
+    0 0,
+    10% 0,
+    100% 80%,
+    0% 100%
+  ); /* Adjust the clip-path shape as needed */
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    90% 100%,
+    0% 80%
+  ); /* Adjust the clip-path shape as needed */
+  color: #000; /* Adjust the text color as needed */
+  padding: 10px 20px; /* Adjust the padding as needed */
+}
+
+.sec-advantages {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: left;
+  padding: 2.5rem;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.sec-advantages div {
+  flex-basis: 30%;
+  padding: 2rem;
+}
+
+.sec-advantages > div:nth-child(1) {
+  box-shadow: -5px -5px 4px rgba(138, 71, 155, 0.363);
+  border-radius: 5px;
+  background: #00000021;
+  /* color: #fffbf8; */
+}
+.sec-advantages > div:nth-child(2) {
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background: #92505021;
+  /* color: #fffbf8; */
+}
+.sec-advantages > div:nth-child(3) {
+  box-shadow: 5px 5px 4px rgba(20, 20, 18, 0.1);
+  border-radius: 5px;
+  background: #eaeaec21;
+  /* color: #fffbf8; */
+}
+.sec-advantages > div:nth-child(4) {
+  box-shadow: 5px 5px 4px rgba(20, 20, 18, 0.1);
+  border-radius: 5px;
+  background: #adacad21;
+  /* color: #fffbf8; */
+}
+.sec-advantages > div:nth-child(5) {
+  box-shadow: 5px 5px 4px rgba(20, 20, 18, 0.1);
+  border-radius: 5px;
+  background: #252b4b50;
+  /* color: #fffbf8; */
+}
+
+.sec-advantages div p {
+  font-size: 13px;
+  padding-top: 8px;
+}
+.sec-advantages div h5 {
+  font-weight: 700;
+  padding-top: 8px;
+}
+/* Advantage ends */
+
+/* where */
+.Where-appa {
+  text-align: center;
+  background-image: linear-gradient(
+    to right,
+    rgba(25, 89, 104, 0.5),
+    rgba(239, 119, 34, 0.774),
+    rgba(65, 146, 69, 0.589)
+  );
+  padding: 5rem 0;
+}
+
+.area {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.area button {
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.area button:nth-child(1) {
+  background-color: #945528b9;
+  color: #ffffff;
+}
+
+.area button:nth-child(2) {
+  background-color: #4286f4be;
+  color: #ffffff;
+}
+
+.area button:nth-child(3) {
+  background-color: #6bc617;
+  color: #ffffff;
+}
+
+.area button:nth-child(4) {
+  background-color: #f4c542ab;
+  color: #ffffff;
+}
+
+.area button:nth-child(5) {
+  background-color: #a742f488;
+  color: #ffffff;
+}
+
+.area button:hover {
+  opacity: 0.8;
+  width: 130px;
+}
+
+.where {
+  padding: 2rem;
+  color: #ffff;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.where img {
+  animation: rotate 5s linear infinite;
+}
+
+.where h2 {
+  letter-spacing: 1px;
+}
+.where p {
+  letter-spacing: 1px;
+}
+@keyframes widen {
+  0% {
+    letter-spacing: 1px;
+  }
+  50% {
+    letter-spacing: 5px;
+  }
+  100% {
+    letter-spacing: 1px;
+  }
+}
+
+.where p {
+  animation: widen 4s infinite;
+}
+
+/* Where ends */
+
+/* dOWNLOAD */
+.appa-download {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 2rem;
+  margin-top: 5rem;
+}
+.store {
+  width: 100px;
+  cursor: pointer;
+}
+.appa-download div h3 {
+  font-size: 28px;
+}
+.appa-download div p {
+  width: 26rem;
+  padding: 8px;
+  font-size: 12px;
+}
+
+/* dOWNLOAD ENDS */
+
+/* Join */
+.group {
+  height: 350px;
+}
+.joinn {
+  text-align: center;
+}
+.joinn-dis {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* padding: 2rem 1rem; */
+  margin-top: 4rem;
+}
+.joinn-dis > div {
+  padding: 3rem;
+  border-radius: 5px;
+  box-shadow: 2px 5px 4px rgba(20, 20, 18, 0.1);
+  background: rgba(134, 134, 127, 0.1);
+}
+.join-img {
+  height: 200px;
+  width: 230px;
+}
+.round {
+  border-radius: 15px;
+}
+.joinn-dis div h3 {
+  font-weight: 400;
+  padding: 15px;
+  font-size: 17px;
+  color: rgb(197, 169, 55);
+}
+.joinn-dis div p {
+  width: 24rem;
+  font-size: 14px;
+  padding: 10px;
+}
+.joinn-btn {
+  width: 120px;
+  height: 35px;
+  background-color: #ef7822;
+  color: #ffff;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+.join-appa p {
+  font-size: 15px;
+}
+
+.join-appa h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  position: relative;
+  display: inline-block;
+  background-color: rgba(
+    29,
+    14,
+    70,
+    0.411
+  ); /* Adjust the background color as needed */
+  -webkit-clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 80%,
+    0% 100%
+  ); /* Adjust the clip-path shape as needed */
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 80%,
+    0% 100%
+  ); /* Adjust the clip-path shape as needed */
+  color: #fff; /* Adjust the text color as needed */
+  padding: 10px 20px; /* Adjust the padding as needed */
+}
+
+/* Media Query */
+
+/* @media (max-width: 913px) {
+  #contentContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin-left: -10rem;
+  }
+  .spec {
+    width: 22rem;
+    text-align: center;
+  }
+  .specialities-appa div p {
+    font-size: 12px;
+  }
+  .specialities-appa-sec {
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .sec-advantages {
+    grid-template-columns: auto;
+    text-align: center;
+  }
+  .sec-advantages div p {
+    font-family: 12px;
+    width: 17rem;
+  }
+  .area {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .area button {
+    width: 100px;
+    height: 25px;
+  }
+  .where h2 {
+    font-size: 18px;
+  }
+  .where p {
+    font-size: 12px;
+  }
+  .appa-download {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+  }
+  .group {
+    height: 220px;
+  }
+  .appa-download div p {
+    width: 17rem;
+  }
+  .appa-download div h3 {
+    font-size: 20px;
+  }
+  .joinn-dis {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .joinn-btn {
+    margin-top: 5px;
+  }
+}
+@media (max-width: 500px) {
+  .where img {
+    height: 50px;
+  }
+  #contentContainer {
+    margin-left: -12rem;
+  }
+
+  .join-img {
+    height: 180px;
+    width: 180px;
+  }
+  .joinn-dis div p {
+    width: fit-content;
+  }
+  .joinn-btn {
+    margin-top: 0;
+  }
+  .spec {
+    width: 22rem;
+    padding: 0 10px;
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 290px) {
+  #contentContainer {
+    margin-left: -9rem;
+    width: fit-content;
+  }
+} */
+
+/* New Media Query */
+/* Media Query for max width of 900px */
+@media (max-width: 900px) {
+  .specialities-appa div h2,
+  .advantages-appa div h2,
+  .join-appa h2 {
+    font-size: 26px;
+  }
+
+  .specialities-appa-sec .specialities__02 {
+    height: auto;
+    width: 100%;
+  }
+
+  .sec-advantages > div {
+    flex-basis: 45%;
+  }
+
+  .area button {
+    width: 110px;
+    height: 40px;
+  }
+
+  .joinn-dis > div {
+    padding: 2rem;
+  }
+
+  .join-img {
+    height: 150px;
+    width: 180px;
+  }
+
+  .joinn-dis div h3 {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .joinn-dis div p {
+    width: 20rem;
+    font-size: 12px;
+  }
+
+  .joinn-btn {
+    width: 100px;
+    height: 30px;
+    font-size: 13px;
+  }
+
+  .join-appa p {
+    font-size: 12px;
+  }
+
+  .joinn-dis {
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+  }
+  .joinn-dis > div {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* Media Query for max width of 500px */
+@media (max-width: 500px) {
+  .where img {
+    /* animation: rotate 5s linear infinite; */
+    margin: 1rem 0 3rem 0;
+  }
+  .specialities-appa div h2,
+  .advantages-appa div h2,
+  .join-appa h2 {
+    font-size: 22px;
+  }
+
+  .specialities-appa div .p-1 {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+  }
+
+  .appa-download {
+    flex-direction: column;
+    gap: 6rem;
+  }
+
+  .join-img {
+    height: 20%;
+    width: 80%;
+  }
+
+  .specialities-appa-sec {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .sec-advantages > div {
+    flex-basis: 100%;
+  }
+
+  .area button {
+    width: 100px;
+    height: 35px;
+  }
+
+  .joinn-dis > div {
+    padding: 1.5rem;
+  }
+
+  .joinn-dis div h3 {
+    padding: 15px;
+    font-size: 18px;
+  }
+
+  .joinn-dis div p {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .joinn-btn {
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+  }
+
+  .join-appa p {
+    font-size: 14px;
+  }
+
+  .where p {
+    animation: none;
+    font-size: 11px;
+  }
+
+  .where h2 {
+    /* letter-spacing: 1px; */
+    font-size: 15px;
+    margin: 1rem 0;
+    font-weight: 500;
+    color: #000;
+  }
+}
