@@ -348,7 +348,6 @@ header .login-form p a {
     margin: 2rem 2.5rem;
     display: block;
   }
-  /* Slider Media Query */
   .home .home-slider .slide {
     justify-content: center;
     height: 80vh;
@@ -364,6 +363,5 @@ header .login-form p a {
 @media (max-width: 450px) {
   html {
     font-size: 50%;
-    /* vvd */
   }
 }
